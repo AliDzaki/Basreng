@@ -1206,6 +1206,14 @@ video {
   outline-offset: 12px;
 }
 
+.outline-offset-\[10px\] {
+  outline-offset: 10px;
+}
+
+.outline-offset-\[1px\] {
+  outline-offset: 1px;
+}
+
 .outline-gray-100 {
   outline-color: #f3f4f6;
 }
