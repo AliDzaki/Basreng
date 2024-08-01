@@ -8,9 +8,15 @@ hamburger.addEventListener('click', function () {
     navMenu.classList.toggle('hidden');
   });
 
-window.onscroll = function ()
-{
-
-}
+  window.onscroll = function () {
+    const header = document.querySelector('header');
+    const fixedNav = header.offsetTop;
+  
+    if (window.pageYOffset > fixedNav) {
+      header.classList.add('shadow-xl');
+    } else {
+      header.classList.remove('shadow-xl');
+    }
+  };
 
 
